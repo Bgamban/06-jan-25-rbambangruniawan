@@ -1,0 +1,230 @@
+/* Ini Halaman CSS */
+/* setting to default */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header navbar */
+.main-header {
+  min-height: 50px;
+  max-height: 60px;
+  width: 100%;
+  background-color: gray;
+}
+/* option to choice */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  display: flex;
+  border-radius: 12px 12px 12px 12px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.owner {
+  border-radius: 50%;
+  width: 40px;
+  height: 55px;
+  float: right;
+  margin-left: 700px;
+}
+/* head logo */
+.heading {
+  width: 100%;
+  min-height: 50em;
+  max-height: 75em;
+  border-radius: 0 0 12% 12%;
+  background-position: center;
+  background-size: cover;
+}
+/* portofolio */
+#portofolio {
+  overflow: auto;
+}
+.porto {
+  text-align: center;
+}
+.portofolio {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 500px;
+  height: 700px;
+  margin-bottom: 50px;
+}
+/* user greetings */
+.user-greatings {
+  text-align: center;
+  margin-top: 450px;
+  margin-bottom: 450px;
+  font-size: 32px;
+}
+/* profiles */
+.our-profiles {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.profiles {
+  overflow: auto;
+}
+/* pictures */
+.example-picture1 {
+  margin-left: 30px;
+}
+.hastag1 {
+  font-size: 3rem;
+  float: right;
+  line-height: 550px;
+  margin-right: 140px;
+}
+.img-2 {
+  margin-left: 30px;
+}
+.img-3 {
+  margin-right: 30px;
+}
+.example-picture2 {
+  /* margin-top: 40px; */
+  float: right;
+  margin-right: 30px;
+}
+/* hashtag */
+.hastag2 {
+  font-size: 3rem;
+  float: left;
+  margin-left: -450px;
+  line-height: 550px;
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  width: 328px;
+  height: 550px;
+  display: inline-block;
+  margin-bottom: 80px;
+  border-radius: 15%;
+}
+/* message */
+#message-us {
+  text-align: center;
+}
+/* column input */
+input,
+textarea {
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 50px;
+}
+textarea {
+  margin-left: 163px;
+}
+.content {
+  float: left;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  width: 500px;
+  box-sizing: border-box;
+}
+form {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+#sender-full-name {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#sender-birth-date {
+  margin-left: 53px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 4px;
+}
+.info {
+  float: right;
+  margin-right: 50px;
+  width: 500px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 80px;
+}
+.message {
+  overflow: auto;
+  margin-top: 100px;
+}
+/* footer */
+.footer {
+  min-height: 30px;
+  max-height: 45px;
+  line-height: 30px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  bottom: auto;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  nav a {
+    width: 50%;
+  }
+  .owner {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  nav a {
+    margin-left: -5px;
+  }
+  .owner {
+    position: top;
+  }
+  .hastag1 {
+    display: block;
+    margin-right: 0;
+  }
+  .hastag2 {
+    display: block;
+    margin-left: 0;
+  }
+  .portofolio {
+    width: 350px;
+    height: 500px;
+  }
+  .img-2 {
+    float: right;
+  }
+  .img-4 {
+    float: right;
+  }
+  .content {
+    margin-left: -55px;
+    width: 300px;
+  }
+  textarea {
+    margin-left: 50px;
+  }
+  .info {
+    width: 310px;
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-right: 40px;
+  }
+  input {
+    margin-left: 30px;
+  }
+}
