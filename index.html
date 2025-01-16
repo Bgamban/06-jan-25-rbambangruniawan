@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header" id="home-page">
+      <nav>
+        <a href="#home-page">Home</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#our-profiles">Our Profiles</a>
+        <a href="#message-us">Message Us</a>
+        <img src="img/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="owner" class="owner" />
+      </nav>
+    </header>
+    <header>
+      <img id="myImage" class="heading" />
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-greetings">
+      <section>
+        <section class="user-greatings" id="welcome">Welcome to Our Store</section>
+      </section>
+    </main>
+    <!-- Portofolio -->
+    <main id="portofolio">
+      <h2 class="porto">Portofolio</h2>
+      <img src="img/engin-akyurt-jaZoffxg1yc-unsplash.jpg" class="portofolio" />
+    </main>
+    <!-- Tutup Portofolio -->
+
+    <!-- Our Profiles -->
+    <section class="profiles">
+      <h2 class="our-profiles" id="our-profiles">Our Profiles</h2>
+      <header class="example-picture1">
+        <img class="img-1" src="img/mark-adriane-V7IJzp_ElQc-unsplash.jpg" alt="" />
+        <img class="img-2" src="img/khaled-ghareeb-XRDvrd5N5Ww-unsplash.jpg" alt="" />
+        <h3 class="hastag1">Looks Stylish</h3>
+      </header>
+      <header class="example-picture2">
+        <h3 class="hastag2">Looks Great</h3>
+        <img class="img-3" src="img/ahmed-carter-tiWcNvpQF4E-unsplash.jpg" alt="" />
+        <img class="img-4" src="img/vladimir-fedotov-NJAFmCuIx1s-unsplash.jpg" alt="" />
+      </header>
+    </section>
+    <!-- Tutup Our Profiles -->
+
+    <!-- Message Us -->
+    <section class="message">
+      <header id="message-us">
+        <h1>Message Us</h1>
+      </header>
+      <div class="content">
+        <form action="" id="message-form">
+          <div class="nama">
+            <label for="name">Masukkan Nama : </label>
+            <input type="text" name="full-name" id="sender-full-name" placeholder="Masukkan Nama" />
+            <p id="error-name"></p>
+          </div>
+          <div class="usia">
+            <label for="sender-birth-date">Tanggal Lahir : </label>
+            <input type="date" name="birth-date" id="sender-birth-date" />
+          </div>
+          <div class="gender">
+            <label for="gender">Jenis Kelamin : </label>
+            <input type="radio" name="gender" id="laki-laki" /><label for="laki-laki">Laki-laki</label> <input type="radio" name="gender" id="perempuan" /><label for="perempuan">Perempuan</label>
+          </div>
+          <div class="pesan">
+            <label for="pesan">Pesan : </label>
+            <textarea name="messages" id="sender-messages" cols="30" rows="10" placeholder="Pesan..."></textarea>
+          </div>
+          <button type="submit" id="submit" value="submit" onclick="submitForm()">Submit</button>
+        </form>
+      </div>
+      <table class="info" id="myTable">
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>Gender</th>
+            <th>Pesan</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- <div class="content"></div>? -->
+    <!-- Tutup Message Us -->
+    <footer class="footer">Created by: R Bambang Runiawan</footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
